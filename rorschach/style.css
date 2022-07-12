@@ -1,0 +1,55 @@
+body {
+    background:#1C3327;
+    text-align:center;
+	display:grid;
+	align-items:center;
+}
+  #wrapper {
+    display:block;
+	overflow:auto;
+    margin:auto;
+	color:rgba(0,0,0,0.9);
+	text-shadow:none;
+	font-family:'Roboto Slab',serif;
+	font-size:15px;
+	max-width:1000px;
+  }
+  canvas {
+    margin: 0 auto;
+    border: 5px solid #C7DDD1;
+    background: #C7DDD1;
+}
+  #canvasObj {
+    display: flex;
+  }
+  #seed {
+    margin-top: 10px;
+    color: #fff;
+    font: 16px Menlo, monospace;
+}
+  #seed:before {
+    content: 'seed: ';
+    opacity: .33;
+}
+  button {
+    margin: 10px 0;
+    border: 1px #000;
+    border-radius: 5px;
+    padding: 6px 10px;
+    background: #C7DDD1;
+    color: #111;
+}
+  #collection img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+  #collection img:hover{
+    width: 120px;
+    border-radius: 8px;
+  }
+  

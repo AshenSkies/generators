@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Rorshach Card Generator</title>
+</head>
+<body>
+    <div id="wrapper">
+    <div id="canvasObj"><canvas id="canv"></canvas></div>
+    <div id="seed"></div>
+    <button id="drawSeed">Redraw</button>
+    <button id="newSeed">Random seed</button>
+    <button id="setSeed">Import seed</button>
+    <div id="collection"></div>
+    </div>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/js-sha256/0.9.0/sha256.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.6.2/dat.gui.min.js'></script>
+    <script src="func.js"></script>
+</body>
+</html>
